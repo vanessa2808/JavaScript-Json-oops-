@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Design a registed website and check the data in the page </title>
+	<link rel="stylesheet" type="text/css" href="../css/arrayInJs.css">
+</head>
+<body>
+	<h1>ĐĂNG KÍ THÀNH VIÊN</h1>
+	<form>
+		<p id="name">Họ và tên(*)  <input id="box" type="text" name="name" placeholder="Nguyen Thi Hong Yen"></p>
+		<p>Giới tính(*) :
+			<select class="box1">
+				<option>Nam</option>
+				<option>Nữ</option>
+			</select>
+		</p>
+		<p id="day"> Ngày sinh(*) :
+			<select class="box2">
+				<option>30</option>
+				<option>29</option>
+				<option>28</option>
+				<option>27</option>
+				<option>26</option>
+			</select>
+		</p>
+			<p id="month">Tháng: 
+				<select class="box3">
+					<option>12</option>
+				</select>
+
+			</p>
+			<p id="year">Năm: 
+				<select class="box4">
+					<option>1999</option>
+				</select>
+
+			</p>
+		<p id="Email">Email(*)
+			<input class="box5" type="text" name="Email" placeholder="yenrion9941@gmail.com">
+		</p>
+		<p>Tên đăng nhập(*): 
+			<input class="box6" type="text" name="nickName" placeholder="Vanessa">
+		</p>
+		<p>Mật khẩu(*)
+			<input class="box7" type="password" name="password">
+		</p>
+		<p>Nhập lại mật khẩu(*)
+			<input class="box8" type="text" name="passwordAgain">	
+		</p>
+		<p id="box9">
+		<input id="register" type="submit" name="register" value="Đăng kí" onclick="checkSubmit()"></p>
+		<p id="box10">
+		<input id="ignore box10" type="submit" name="ignore" value="Bỏ qua"></p>
+	</form>
+
+<script type="text/javascript" src="../js/arrayInJs.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+	margin:0 auto;
+	width: 80%;
+}
+#day {
+	float: left;
+}
+#month {
+	float: left;
+	margin-left: 10px;
+}
+#year {
+	float: left;
+	margin-left: 10px;
+}
+#Email {
+	margin-top: 70px;
+}
+#register{
+	background-color: #123abc;
+}
+#ignore {
+	background-color: #123abc;
+}
+#box{
+	margin-left: 60px;
+}
+.box1{
+	margin-left: 57px;
+}
+.box2{
+	margin-left: 50px;
+}
+.box5{
+	margin-left: 85px;
+}
+.box6{
+	margin-left: 23px;
+}
+.box7{
+	margin-left: 60px;
+}
+.box8{
+	margin-left: 3px;
+}
+#box9{
+	margin-left: 80px;
+	float: left;
+}
+#box10{
+	margin-left: 80px;
+	float: left;
+}
